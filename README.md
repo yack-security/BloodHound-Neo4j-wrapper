@@ -14,7 +14,7 @@ I guess it can be used with something else then BloodHound, should work with any
 
 ## How to start
 
-Notice: only been test/used on Kali Linux.
+Notice: only been test/used on Kali Linux. See the quick demo at the end.
 
 ### Requirements
 
@@ -26,8 +26,8 @@ sudo apt install jq moreutils tmux bloodhound neo4j -y
 ### Clone and setup
 
 ```bash
-git clone <repo>
-cd <repo>
+git clone https://github.com/service-yack/BloodHound-Neo4j-wrapper.git
+cd BloodHound-Neo4j-wrapper
 ./bh-neo4j-wrapper.sh setup
 ```
 
@@ -49,3 +49,7 @@ rm -rf <reponame>
 # delete symlink
 sudo rm /usr/local/bin/tool.sh
 ```
+
+## Quick demo
+
+[![asciicast](https://asciinema.org/a/YqvC6YlsqTxYH5n5lUMRkyFdB.svg)](https://asciinema.org/a/YqvC6YlsqTxYH5n5lUMRkyFdB)
